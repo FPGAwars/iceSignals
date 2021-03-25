@@ -1,5 +1,5 @@
 {
-  "name": "iceSignals",
+  "name": "icesignals",
   "version": "0.1.0",
   "description": "Managment and generation of 1-bit signals",
   "keywords": ["signals","tics","pulses"],
