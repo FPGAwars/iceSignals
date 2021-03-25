@@ -1,0 +1,18 @@
+{
+  "name": "iceSignals",
+  "version": "0.1.0",
+  "description": "Managment and generation of 1-bit signals",
+  "keywords": ["signals","tics","pulses"],
+  "license": "GPL-2.0",
+  "authors": [{
+    "name": "Juan Gonzalez-Gomez (Obijuan)",
+    "email": "",
+    "url": "https://github.com/Obijuan"
+  }],
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "branch": "master",
+    "url": "https://github.com/FPGAwars/iceSignals"
+  }
+}
