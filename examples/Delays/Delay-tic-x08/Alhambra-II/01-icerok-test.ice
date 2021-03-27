@@ -261,8 +261,8 @@
           }
         },
         {
-          "id": "0db68728-d4de-461e-a0f7-0bc86e453572",
-          "type": "f2a655fe0009be531823f6ef40e27092a08dacc3",
+          "id": "735fe3a9-4110-4111-9cb5-fb8cc9fca33e",
+          "type": "805693e303442048ff433a8a77ba57cc35ec494e",
           "position": {
             "x": 848,
             "y": 336
@@ -367,13 +367,13 @@
             "port": "997db8c4-b772-49d8-83e7-4427aff720e6"
           },
           "target": {
-            "block": "0db68728-d4de-461e-a0f7-0bc86e453572",
+            "block": "735fe3a9-4110-4111-9cb5-fb8cc9fca33e",
             "port": "a0fe9fd3-bdde-4fe6-8ed3-5c4ce70abb80"
           }
         },
         {
           "source": {
-            "block": "0db68728-d4de-461e-a0f7-0bc86e453572",
+            "block": "735fe3a9-4110-4111-9cb5-fb8cc9fca33e",
             "port": "4e8afe74-8f38-4873-97ee-f7585d99a4aa"
           },
           "target": {
@@ -17060,7 +17060,7 @@
         }
       }
     },
-    "f2a655fe0009be531823f6ef40e27092a08dacc3": {
+    "805693e303442048ff433a8a77ba57cc35ec494e": {
       "package": {
         "name": "Delay-tic-x8",
         "version": "0.1",
@@ -17184,7 +17184,7 @@
               "id": "dc57e6e2-5a6e-4eb6-9e3a-e08e3950cd13",
               "type": "basic.info",
               "data": {
-                "info": "1-tic delay",
+                "info": "4-tic delay",
                 "readonly": true
               },
               "position": {
@@ -17216,7 +17216,7 @@
               "id": "29ef30d2-5a8e-484a-88bf-2923c96d0cc0",
               "type": "basic.info",
               "data": {
-                "info": "Signal delayed 4 tics",
+                "info": "Signal delayed 8 tics",
                 "readonly": true
               },
               "position": {
@@ -17248,7 +17248,7 @@
               "id": "0d00265e-5d19-4425-80df-bbbcbdeb6573",
               "type": "basic.info",
               "data": {
-                "info": "1-tic delay",
+                "info": "4-tic delay",
                 "readonly": true
               },
               "position": {
