@@ -3,7 +3,7 @@
   "package": {
     "name": "Delay-tic-x3",
     "version": "0.1",
-    "description": "Delay-tic-x3: Two system clock period (tic) delay",
+    "description": "Delay-tic-x3: 3 system clock period (tic) delay",
     "author": "Juan González-Gómez (Obijuan)",
     "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22267.818%22%20height=%22241.635%22%20viewBox=%220%200%2070.860154%2063.932607%22%3E%3Cg%20transform=%22translate(-152.71%2039.523)%22%3E%3Ccircle%20cx=%22182.037%22%20cy=%22-4.917%22%20r=%2228.269%22%20fill=%22#fff%22%20stroke=%22#000%22%20stroke-width=%222.117%22%20stroke-linecap=%22round%22/%3E%3Cpath%20d=%22M182.037-4.595v-20.59M182.022-4.562h-12.761%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%222.117%22%20stroke-linecap=%22round%22/%3E%3Cg%20transform=%22matrix(.69222%200%200%20.69222%20122.893%20-45.077)%22%20stroke-width=%221.216%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.74%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.85%22/%3E%3C/g%3E%3Ccircle%20cx=%22208.452%22%20cy=%22-24.405%22%20r=%2214.493%22%20fill=%22#fff%22%20stroke=%22#000%22%20stroke-width=%221.251%22%20stroke-linecap=%22round%22/%3E%3Ctext%20style=%22line-height:1.25%22%20x=%22199.686%22%20y=%22-19.236%22%20font-weight=%22400%22%20font-size=%2216.677%22%20font-family=%22sans-serif%22%20fill=%22#00f%22%20stroke-width=%22.417%22%3E%3Ctspan%20x=%22199.686%22%20y=%22-19.236%22%3Ex3%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E",
     "otid": 1616831800584
