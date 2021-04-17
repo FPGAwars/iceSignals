@@ -72,14 +72,6 @@
           "data": {
             "blockColor": "fuchsia",
             "name": "output",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true,
             "oldBlockColor": "fuchsia"
           },
           "position": {
@@ -138,14 +130,6 @@
           "data": {
             "blockColor": "fuchsia",
             "name": "input",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true,
             "oldBlockColor": "fuchsia"
           },
           "position": {
@@ -170,7 +154,7 @@
             "oldBlockColor": "fuchsia"
           },
           "position": {
-            "x": 1240,
+            "x": 1344,
             "y": 488
           }
         },
@@ -180,14 +164,6 @@
           "data": {
             "blockColor": "fuchsia",
             "name": "output",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true,
             "oldBlockColor": "fuchsia"
           },
           "position": {
@@ -204,7 +180,7 @@
             "local": false
           },
           "position": {
-            "x": 1096,
+            "x": 1200,
             "y": 384
           }
         },
@@ -276,7 +252,7 @@
           "id": "f115d704-6818-4ef8-b02a-3a92d08d4910",
           "type": "3676a00f3a70e406487ed14b901daf3e4984e63d",
           "position": {
-            "x": 408,
+            "x": 480,
             "y": 416
           },
           "size": {
@@ -288,7 +264,7 @@
           "id": "c28dd5fa-6f1d-4882-8fa8-f1a223a20b15",
           "type": "27798f5cc435d65570ec916af5f7182da7d838b7",
           "position": {
-            "x": 936,
+            "x": 1040,
             "y": 360
           },
           "size": {
@@ -324,7 +300,7 @@
           "id": "e3768f5d-07dc-44d4-8a2f-d41bf6c565fa",
           "type": "93c5332100dac9394e2631de4a8fcdcbc727bc54",
           "position": {
-            "x": 1096,
+            "x": 1200,
             "y": 488
           },
           "size": {
@@ -342,6 +318,102 @@
           "size": {
             "width": 96,
             "height": 64
+          }
+        },
+        {
+          "id": "fa94826b-8607-4027-b39a-e30c3e351717",
+          "type": "basic.info",
+          "data": {
+            "info": "State: counting  \n(counter value != 0)  ",
+            "readonly": true
+          },
+          "position": {
+            "x": 1032,
+            "y": 256
+          },
+          "size": {
+            "width": 200,
+            "height": 56
+          }
+        },
+        {
+          "id": "7e677836-3471-4750-a051-3f6df67f8faa",
+          "type": "basic.info",
+          "data": {
+            "info": "Enable the counter if it has a value !=0   \nOR A new tic arrives",
+            "readonly": true
+          },
+          "position": {
+            "x": 256,
+            "y": 360
+          },
+          "size": {
+            "width": 360,
+            "height": 48
+          }
+        },
+        {
+          "id": "ed16246f-2dcc-40c2-b2f3-aa603206973b",
+          "type": "basic.info",
+          "data": {
+            "info": "When the output is 1,  \nstop the counter (reset it)",
+            "readonly": true
+          },
+          "position": {
+            "x": 448,
+            "y": 608
+          },
+          "size": {
+            "width": 224,
+            "height": 56
+          }
+        },
+        {
+          "id": "9a1120dc-9384-4e51-819b-5ec8117eee57",
+          "type": "basic.info",
+          "data": {
+            "info": "Rst=1: Counter = 0  \nRst=0: Counting...",
+            "readonly": true
+          },
+          "position": {
+            "x": 760,
+            "y": 584
+          },
+          "size": {
+            "width": 176,
+            "height": 56
+          }
+        },
+        {
+          "id": "60026579-afab-4f4a-8f42-4ba76533c2aa",
+          "type": "basic.info",
+          "data": {
+            "info": "Count the system cycles since  \nthe first tic",
+            "readonly": true
+          },
+          "position": {
+            "x": 784,
+            "y": 440
+          },
+          "size": {
+            "width": 256,
+            "height": 48
+          }
+        },
+        {
+          "id": "60efbd1b-3d2b-4272-b998-dc5a8ce10ec9",
+          "type": "basic.info",
+          "data": {
+            "info": "When counter = N,  \nan output tic is generated",
+            "readonly": true
+          },
+          "position": {
+            "x": 1120,
+            "y": 576
+          },
+          "size": {
+            "width": 232,
+            "height": 56
           }
         }
       ],
@@ -453,11 +525,11 @@
           },
           "vertices": [
             {
-              "x": 888,
+              "x": 992,
               "y": 312
             },
             {
-              "x": 224,
+              "x": 328,
               "y": 320
             }
           ]
