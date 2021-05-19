@@ -85,16 +85,16 @@
           "id": "f863462c-57bb-49d6-8f87-66c23054a432",
           "type": "basic.info",
           "data": {
-            "info": "## Example 1: width-tics-x2: Manual testing with one buttons and some LEDs\n\n",
+            "info": "## Example 1: width-tics-x2: Manual testing with one buttons and some LEDs\n\nWhen the button is pressed, a tic (one-cycle pulse) is generated and sent to the width-x2 block. It will generate  \na two-cycles width pulse. This new pulse is used to capture the state of a 1-bit counter that is running without stoping  \nThe two bits captured in the D flip-flops is shown on the LEDs. There should be only one LED on everytime the button is  \npressed (as the counter is fliping on every cycle. It is not possible to capture two equal bits)",
             "readonly": true
           },
           "position": {
             "x": 472,
-            "y": 152
+            "y": 232
           },
           "size": {
-            "width": 880,
-            "height": 88
+            "width": 896,
+            "height": 128
           }
         },
         {
