@@ -51,7 +51,7 @@
           "type": "basic.constant",
           "data": {
             "name": "Width",
-            "value": "1",
+            "value": "4",
             "local": false
           },
           "position": {
@@ -6327,8 +6327,7 @@
             {
               "source": {
                 "block": "cbc24c56-9673-4630-bda5-93d0efdc0d5d",
-                "port": "260e86a2-5bb2-467c-8e22-89b78112b481",
-                "size": 2
+                "port": "260e86a2-5bb2-467c-8e22-89b78112b481"
               },
               "target": {
                 "block": "a7f9888e-53ef-440e-a3d4-a3963d3fdae3",
@@ -6343,8 +6342,7 @@
               },
               "target": {
                 "block": "b08bf8d6-c63f-47bc-b97d-809e79c861c1",
-                "port": "56fac371-6080-47cf-ac44-5f54ee28144d",
-                "size": 2
+                "port": "56fac371-6080-47cf-ac44-5f54ee28144d"
               },
               "size": 2
             },
