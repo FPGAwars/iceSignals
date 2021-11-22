@@ -83,7 +83,7 @@
           "id": "fd9a6264-b2fa-4954-82b8-3d4139ba0e5f",
           "type": "basic.info",
           "data": {
-            "info": "# start-2bit: Manual testing",
+            "info": "# start-w-2bit: Manual testing",
             "readonly": true
           },
           "position": {
@@ -91,8 +91,8 @@
             "y": 64
           },
           "size": {
-            "width": 336,
-            "height": 64
+            "width": 416,
+            "height": 48
           }
         },
         {
@@ -158,11 +158,11 @@
   "dependencies": {
     "1088f195a63f30df82b049a4d6e9f78c5f9f82a8": {
       "package": {
-        "name": "start-2-bits",
+        "name": "start-w-2-bits",
         "version": "0.1",
-        "description": "start-2bit2: 2-bit width Start signal: W cycles pulse",
+        "description": "start-w-2bit: 2-bit width Start signal: W cycles pulse",
         "author": "Juan González-Gómez (Obijuan)",
-        "image": "%3Csvg%20width=%22223.262%22%20height=%22223.558%22%20viewBox=%220%200%2059.071472%2059.149732%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg%20transform=%22translate(-79.271%20-21.442)%22%3E%3Ctext%20style=%22line-height:1.25%22%20x=%2288.424%22%20y=%2229.297%22%20font-weight=%22400%22%20font-size=%2210.583%22%20font-family=%22sans-serif%22%20stroke-width=%22.265%22%3E%3Ctspan%20x=%2288.424%22%20y=%2229.297%22%3EStart!%3C/tspan%3E%3C/text%3E%3Ctext%20y=%2279.431%22%20x=%22124.459%22%20style=%22line-height:0%25%22%20font-weight=%22400%22%20font-size=%2238.048%22%20letter-spacing=%220%22%20word-spacing=%220%22%20transform=%22scale(.99853%201.00147)%22%20font-family=%22sans-serif%22%20fill=%22#00f%22%20stroke-width=%22.706%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20y=%2279.431%22%20x=%22124.459%22%20font-weight=%22700%22%20font-size=%2221.742%22%3E0%3C/tspan%3E%3C/text%3E%3Ccircle%20r=%2223.501%22%20cy=%2256.6%22%20cx=%22103.263%22%20fill=%22#ececec%22%20stroke=%22green%22%20stroke-width=%22.982%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M114.284%2070.04H101.95V39.653h-9.822%22%20fill=%22none%22%20stroke=%22green%22%20stroke-width=%222.455%22%20stroke-linecap=%22round%22/%3E%3C/g%3E%3C/svg%3E",
+        "image": "%3Csvg%20width=%22268.174%22%20height=%22232.321%22%20viewBox=%220%200%2070.954384%2061.468394%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg%20transform=%22translate(-74.072%20-21.442)%22%3E%3Ctext%20style=%22line-height:1.25%22%20x=%2288.424%22%20y=%2229.297%22%20font-weight=%22400%22%20font-size=%2210.583%22%20font-family=%22sans-serif%22%20stroke-width=%22.265%22%3E%3Ctspan%20x=%2288.424%22%20y=%2229.297%22%3EStart!%3C/tspan%3E%3C/text%3E%3Ccircle%20r=%2223.501%22%20cy=%2256.6%22%20cx=%22103.263%22%20fill=%22#ececec%22%20stroke=%22green%22%20stroke-width=%22.982%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M115.709%2070.04H101.95V39.653h-9.822%22%20fill=%22none%22%20stroke=%22green%22%20stroke-width=%222.455%22%20stroke-linecap=%22round%22/%3E%3Cg%20transform=%22matrix(.842%200%200%20.842%2047.804%208.243)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Cellipse%20cy=%2273.132%22%20cx=%2280.204%22%20rx=%225.798%22%20ry=%227.075%22%20fill=%22#ececec%22/%3E%3Ctext%20y=%2280.762%22%20x=%2273.141%22%20style=%22line-height:0%25%22%20font-weight=%22400%22%20font-size=%2238.048%22%20letter-spacing=%220%22%20word-spacing=%220%22%20transform=%22scale(.99853%201.00147)%22%20font-family=%22sans-serif%22%20fill=%22#00f%22%20stroke-width=%22.706%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20y=%2280.762%22%20x=%2273.141%22%20font-weight=%22700%22%20font-size=%2221.742%22%3E0%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E",
         "otid": 1616923422866
       },
       "design": {
@@ -569,8 +569,7 @@
             {
               "source": {
                 "block": "044eacf2-79fb-4399-a4af-21717ba61c11",
-                "port": "260e86a2-5bb2-467c-8e22-89b78112b481",
-                "size": 2
+                "port": "260e86a2-5bb2-467c-8e22-89b78112b481"
               },
               "target": {
                 "block": "a7f9888e-53ef-440e-a3d4-a3963d3fdae3",
@@ -585,8 +584,7 @@
               },
               "target": {
                 "block": "b08bf8d6-c63f-47bc-b97d-809e79c861c1",
-                "port": "56fac371-6080-47cf-ac44-5f54ee28144d",
-                "size": 2
+                "port": "56fac371-6080-47cf-ac44-5f54ee28144d"
               },
               "size": 2
             },
