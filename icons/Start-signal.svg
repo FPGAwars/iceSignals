@@ -354,5 +354,28 @@
        id="path1773-2-3-1-8-9-7"
        d="M 114.28371,70.04006 H 101.95019 V 39.653089 h -9.822371"
        style="fill:none;stroke:#008000;stroke-width:2.45529;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <g
+       id="g112"
+       transform="translate(30.939584,13.307636)">
+      <rect
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect8310"
+         width="24.412153"
+         height="13.185227"
+         x="80.300102"
+         y="21.374691"
+         ry="2.2467685" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="82.244514"
+         y="30.943497"
+         id="text2010"><tspan
+           sodipodi:role="line"
+           id="tspan2008"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#0000ff;stroke-width:0.264583"
+           x="82.244514"
+           y="30.943497">Sys</tspan></text>
+    </g>
   </g>
 </svg>
