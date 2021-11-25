@@ -70,7 +70,7 @@
           "id": "fd9a6264-b2fa-4954-82b8-3d4139ba0e5f",
           "type": "basic.info",
           "data": {
-            "info": "# start-3bit: Manual testing",
+            "info": "# start-5bit: Manual testing",
             "readonly": true
           },
           "position": {
@@ -600,8 +600,7 @@
             {
               "source": {
                 "block": "f7e34ff6-f008-459e-acaf-17d2460c1e44",
-                "port": "4fa14254-0eea-4855-9ae2-59549c7c182e",
-                "size": 5
+                "port": "4fa14254-0eea-4855-9ae2-59549c7c182e"
               },
               "target": {
                 "block": "d8fa192f-9bb1-48f4-a4b7-f10614d36661",
@@ -616,8 +615,7 @@
               },
               "target": {
                 "block": "1418cede-6c94-4e2c-bafb-3b3c7acade42",
-                "port": "330b4409-2f23-4cea-a0d0-dd655308e5bf",
-                "size": 5
+                "port": "330b4409-2f23-4cea-a0d0-dd655308e5bf"
               },
               "size": 5
             },
