@@ -35,8 +35,8 @@
             "readonly": true
           },
           "position": {
-            "x": -56,
-            "y": -640
+            "x": -120,
+            "y": -552
           },
           "size": {
             "width": 144,
@@ -543,8 +543,8 @@
           "id": "1727fd2a-01bf-44f2-b18d-e67e19adeefe",
           "type": "b935e9e9ea52c87784e1c70e790487bd5bf8b9cc",
           "position": {
-            "x": -56,
-            "y": -600
+            "x": -120,
+            "y": -512
           },
           "size": {
             "width": 96,
@@ -564,6 +564,22 @@
           },
           "size": {
             "width": 296,
+            "height": 40
+          }
+        },
+        {
+          "id": "657a2146-21ef-4c68-821d-5f1a3210d3ae",
+          "type": "basic.info",
+          "data": {
+            "info": "## Fixed Delay",
+            "readonly": true
+          },
+          "position": {
+            "x": -152,
+            "y": -616
+          },
+          "size": {
+            "width": 152,
             "height": 40
           }
         }
