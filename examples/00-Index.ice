@@ -628,18 +628,6 @@
           }
         },
         {
-          "id": "da4c61fd-9633-4ca4-af64-b37c4cd54553",
-          "type": "8d9e1cb5ab4ca57bd735afc1168cc9f4406a2b5e",
-          "position": {
-            "x": 992,
-            "y": -480
-          },
-          "size": {
-            "width": 96,
-            "height": 64
-          }
-        },
-        {
           "id": "321c35dd-599b-4615-8543-b4f263fc283c",
           "type": "ec2758b98e116c35b1d4fa76df620e13ccb6e04b",
           "position": {
