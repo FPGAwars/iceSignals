@@ -267,7 +267,7 @@
                 "name": "MS"
               }
             ],
-            "code": "localparam Cycles = $ceil(1.0e-6 * F * MS);\n\nassign n = Cycles;\n\n"
+            "code": "localparam Cycles = $ceil(1.0e-3 * F * MS);\n\nassign n = Cycles;\n\n"
           },
           "position": {
             "x": 472,
