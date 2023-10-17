@@ -2,8 +2,8 @@
   "version": "1.2",
   "package": {
     "name": "start",
-    "version": "0.2",
-    "description": "start: Start signal: It goes from 1 to 0 when the system clock starts. 1 cycle pulse witch",
+    "version": "0.3",
+    "description": "start: Start signal: It goes from 1 to 0 when the system clock starts. 1 cycle pulse witch. Block implementation",
     "author": "Juan González-Gómez (Obijuan)",
     "image": "%3Csvg%20width=%22223.262%22%20height=%22223.558%22%20viewBox=%220%200%2059.071472%2059.149732%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg%20transform=%22translate(-79.271%20-21.442)%22%3E%3Ctext%20style=%22line-height:1.25%22%20x=%2288.424%22%20y=%2229.297%22%20font-weight=%22400%22%20font-size=%2210.583%22%20font-family=%22sans-serif%22%20stroke-width=%22.265%22%3E%3Ctspan%20x=%2288.424%22%20y=%2229.297%22%3EStart!%3C/tspan%3E%3C/text%3E%3Ctext%20y=%2279.431%22%20x=%22124.459%22%20style=%22line-height:0%25%22%20font-weight=%22400%22%20font-size=%2238.048%22%20letter-spacing=%220%22%20word-spacing=%220%22%20transform=%22scale(.99853%201.00147)%22%20font-family=%22sans-serif%22%20fill=%22#00f%22%20stroke-width=%22.706%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20y=%2279.431%22%20x=%22124.459%22%20font-weight=%22700%22%20font-size=%2221.742%22%3E0%3C/tspan%3E%3C/text%3E%3Ccircle%20r=%2223.501%22%20cy=%2256.6%22%20cx=%22103.263%22%20fill=%22#ececec%22%20stroke=%22green%22%20stroke-width=%22.982%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M114.284%2070.04H101.95V39.653h-9.822%22%20fill=%22none%22%20stroke=%22green%22%20stroke-width=%222.455%22%20stroke-linecap=%22round%22/%3E%3Cg%20transform=%22translate(30.94%2013.308)%22%3E%3Crect%20width=%2224.412%22%20height=%2213.185%22%20x=%2280.3%22%20y=%2221.375%22%20ry=%222.247%22%20fill=%22#fff%22%20stroke=%22#000%22%20stroke-width=%22.794%22%20stroke-linecap=%22round%22/%3E%3Ctext%20style=%22line-height:1.25%22%20x=%2282.245%22%20y=%2230.943%22%20font-weight=%22400%22%20font-size=%2210.583%22%20font-family=%22sans-serif%22%20fill=%22#00f%22%20stroke-width=%22.265%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20x=%2282.245%22%20y=%2230.943%22%20font-weight=%22700%22%3ESys%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/g%3E%3C/svg%3E",
     "otid": 1616923422866
@@ -150,8 +150,8 @@
           }
         },
         {
-          "id": "b36ad6f3-efc4-41b7-8fa1-6b9b5a91af50",
-          "type": "85dc1f75bb2706cba6e6c504fec08ea7c5195798",
+          "id": "b3758a60-11dc-4bbf-b594-ad501a1f0ae7",
+          "type": "58ed2b5c7e33e2f215ccba6c101d9ea4ff60f284",
           "position": {
             "x": 488,
             "y": 200
@@ -180,7 +180,7 @@
             "port": "outlabel"
           },
           "target": {
-            "block": "b36ad6f3-efc4-41b7-8fa1-6b9b5a91af50",
+            "block": "b3758a60-11dc-4bbf-b594-ad501a1f0ae7",
             "port": "3943e194-090b-4553-9df3-88bc4b17abc2"
           },
           "vertices": [
@@ -196,7 +196,7 @@
             "port": "3d584b0a-29eb-47af-8c43-c0822282ef05"
           },
           "target": {
-            "block": "b36ad6f3-efc4-41b7-8fa1-6b9b5a91af50",
+            "block": "b3758a60-11dc-4bbf-b594-ad501a1f0ae7",
             "port": "bf2f0c53-2d04-4cba-aa70-2df85502d24f"
           }
         },
@@ -206,13 +206,13 @@
             "port": "constant-out"
           },
           "target": {
-            "block": "b36ad6f3-efc4-41b7-8fa1-6b9b5a91af50",
+            "block": "b3758a60-11dc-4bbf-b594-ad501a1f0ae7",
             "port": "65194b18-5d2a-41b2-bd86-01be99978ad6"
           }
         },
         {
           "source": {
-            "block": "b36ad6f3-efc4-41b7-8fa1-6b9b5a91af50",
+            "block": "b3758a60-11dc-4bbf-b594-ad501a1f0ae7",
             "port": "aa84d31e-cd92-44c7-bb38-c7a4cd903a78"
           },
           "target": {
@@ -286,11 +286,11 @@
         }
       }
     },
-    "85dc1f75bb2706cba6e6c504fec08ea7c5195798": {
+    "58ed2b5c7e33e2f215ccba6c101d9ea4ff60f284": {
       "package": {
-        "name": "sys-DFF",
-        "version": "2.2",
-        "description": "System - D Flip-flop. Capture data every system clock cycle",
+        "name": "sys-DFF-verilog",
+        "version": "3",
+        "description": "System - D Flip-flop. Capture data every system clock cycle. Verilog implementation",
         "author": "Juan González-Gómez (Obijuan)",
         "image": "%3Csvg%20width=%22196.313%22%20height=%22216.83%22%20viewBox=%220%200%2051.941051%2057.369679%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg%20transform=%22translate(-52.22%20-48.028)%22%3E%3Crect%20width=%2224.412%22%20height=%2213.185%22%20x=%2279.352%22%20y=%2253.67%22%20ry=%222.247%22%20fill=%22#fff%22%20stroke=%22#000%22%20stroke-width=%22.794%22%20stroke-linecap=%22round%22/%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M77.902%2088.18l13.607%2016.672-6.918-20.534%22%20fill=%22#ccc%22%20stroke-width=%221.0924880399999999%22/%3E%3Cpath%20d=%22M70.517%2080.116l-9.232-19.613-6.45%203.725-2.07-3.584%2020.905-12.07%202.07%203.584-6.093%203.518%2012.03%2018.222s5.4-2.025%208.536.74c3.136%202.766%202.52%204.92%202.887%204.773L69.412%2093.049s-2.848-3.696-2.16-6.796c.687-3.1%203.265-6.137%203.265-6.137z%22%20fill=%22red%22%20stroke-width=%221.0924880399999999%22/%3E%3C/g%3E%3Ctext%20style=%22line-height:1.25%22%20x=%2281.296%22%20y=%2263.239%22%20font-weight=%22400%22%20font-size=%2210.583%22%20font-family=%22sans-serif%22%20fill=%22#00f%22%20stroke-width=%22.265%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20x=%2281.296%22%20y=%2263.239%22%20font-weight=%22700%22%3ESys%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E"
       },
@@ -317,7 +317,7 @@
               },
               "position": {
                 "x": 208,
-                "y": 160
+                "y": 184
               }
             },
             {
@@ -328,7 +328,7 @@
               },
               "position": {
                 "x": 816,
-                "y": 224
+                "y": 232
               }
             },
             {
@@ -340,7 +340,7 @@
               },
               "position": {
                 "x": 208,
-                "y": 304
+                "y": 280
               }
             },
             {
@@ -360,7 +360,7 @@
               "id": "bdc170f0-4468-4137-bd79-4624c9cadf2b",
               "type": "basic.code",
               "data": {
-                "code": "//-- Initial value\nreg q = INI;\n\n//-- Capture the input data  \n//-- on the rising edge of  \n//-- the system clock\nalways @(posedge clk)\n  q <= d;",
+                "code": "//-- Initial value\nreg qi = INI;\n\n//-- Capture the input data  \n//-- on the rising edge of  \n//-- the system clock\nalways @(posedge clk)\n  qi <= d;\n  \n//-- Connect the register with the\n//-- output\nassign q = qi;",
                 "params": [
                   {
                     "name": "INI"
@@ -387,8 +387,8 @@
                 "y": 168
               },
               "size": {
-                "width": 344,
-                "height": 176
+                "width": 352,
+                "height": 192
               }
             },
             {
@@ -416,7 +416,7 @@
               },
               "position": {
                 "x": 208,
-                "y": 136
+                "y": 160
               },
               "size": {
                 "width": 120,
@@ -432,7 +432,7 @@
               },
               "position": {
                 "x": 224,
-                "y": 280
+                "y": 256
               },
               "size": {
                 "width": 112,
