@@ -3,7 +3,7 @@
   "package": {
     "name": "Rising-edge-detector",
     "version": "0.4",
-    "description": "Rising-edge detector. It generates a 1-period pulse (tic) when a rising edge is detected on the input",
+    "description": "Rising-edge detector. It generates a 1-period pulse (tic) when a rising edge is detected on the input. Block implementation",
     "author": "Juan González-Gómez (Obijuan)",
     "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22185.363%22%20height=%22183.398%22%20viewBox=%220%200%2049.043981%2048.524089%22%3E%3Cg%20stroke-linecap=%22round%22%3E%3Cg%20fill=%22none%22%20stroke=%22#00f%22%3E%3Cpath%20d=%22M13.478%2032.434l6.026%207.975-5.054%206.03%201.749%201.556m-3.96-15.367l-3.5%207.976-7.97%201.555.583%202.529%22%20stroke-width=%221.058%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M12.773%2032.628V2.686%22%20stroke-width=%223.969%22/%3E%3Cpath%20d=%22M1.984%2012.436L12.673%201.984l10.35%2010.452%22%20stroke-width=%223.969%22%20stroke-linejoin=%22round%22/%3E%3C/g%3E%3Cg%20transform=%22matrix(.842%200%200%20.842%20-48.178%20-26.157)%22%20stroke=%22green%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"
   },
@@ -21,6 +21,25 @@
           "position": {
             "x": 152,
             "y": 152
+          }
+        },
+        {
+          "id": "9215ae7b-9960-4c8e-b80c-4d636db8510d",
+          "type": "basic.output",
+          "data": {
+            "name": "nc",
+            "virtual": true,
+            "pins": [
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ]
+          },
+          "position": {
+            "x": 840,
+            "y": 160
           }
         },
         {
@@ -183,7 +202,7 @@
           }
         },
         {
-          "id": "2381245e-1b51-4684-8ed6-12e5bea71a83",
+          "id": "4f9cbe33-5c5a-43fb-bb20-863555cd0c64",
           "type": "58ed2b5c7e33e2f215ccba6c101d9ea4ff60f284",
           "position": {
             "x": 320,
@@ -202,7 +221,7 @@
             "port": "out"
           },
           "target": {
-            "block": "2381245e-1b51-4684-8ed6-12e5bea71a83",
+            "block": "4f9cbe33-5c5a-43fb-bb20-863555cd0c64",
             "port": "bf2f0c53-2d04-4cba-aa70-2df85502d24f"
           }
         },
@@ -212,13 +231,13 @@
             "port": "out"
           },
           "target": {
-            "block": "2381245e-1b51-4684-8ed6-12e5bea71a83",
+            "block": "4f9cbe33-5c5a-43fb-bb20-863555cd0c64",
             "port": "3943e194-090b-4553-9df3-88bc4b17abc2"
           }
         },
         {
           "source": {
-            "block": "2381245e-1b51-4684-8ed6-12e5bea71a83",
+            "block": "4f9cbe33-5c5a-43fb-bb20-863555cd0c64",
             "port": "aa84d31e-cd92-44c7-bb38-c7a4cd903a78"
           },
           "target": {
